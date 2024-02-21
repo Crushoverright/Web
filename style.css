@@ -1,0 +1,105 @@
+.imagen img{
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+.uru img{
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+
+.prueba .body .imagen img{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.prueba .body .imagen4 img{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    position:relative;
+    right: -210px;
+    top: -175px;
+}
+.prueba .body .imagen2 img{
+    width: 500px;
+    height: auto;
+}
+body {
+    font-family: sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: rgb(31, 31, 31); /* El color del fondo de la página web */
+    color: #a9a9a9; /* El color del texto*/ 
+}
+h1 {
+    color: white; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: system-ui; /* La familia tipográfica utilizada en la cabecera */
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+.prueba .body .imagen3 img{
+    width: 500px;
+    height: auto;
+    position: relative;
+    top: 450px
+}
+.prueba .body .texto select{
+    position: relative;
+    top: -600px;
+}
+.prueba .body .audio audio{
+    position: relative;
+    top: -600px;
+    right: -100px;
+}
+
+
+@keyframes color-change {
+    0% {
+      color: red;
+    }
+    16.666% {
+      color: orange;
+    }
+    33.333% {
+      color: yellow;
+    }
+    50% {
+      color: green;
+    }
+    66.666% {
+      color: blue;
+    }
+    83.333% {
+      color: indigo;
+    }
+    100% {
+      color: violet;
+    }
+  }
+
+
+body {
+    animation: color-change 6s infinite;
+}
+@keyframes rotar {
+    0% {
+        transform: translateY(0);
+
+    }
+    50% {
+        transform: translateY(-50px);
+        rotate: y 360deg;
+    }
+    100% {
+        transform: translateY(0);
+
+        
+    }
+}
+img {
+    animation: rotar 3s infinite;
+}
